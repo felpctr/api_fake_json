@@ -4,8 +4,7 @@
   "description": "* Criar uma pasta e colocar o nome desejado\r * npm init -y\r * npm i json-server",
   "main": "index.js",
   "scripts": {
-    "dev": "json-server -p 3000 -w tools/db.json -s ./node_modules/json-server/public",
-    "start": "node server.js"
+    "dev": "json-server --watch db.json --port 3000"
   },
   "keywords": [],
   "author": "",
